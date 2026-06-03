@@ -7,6 +7,10 @@
 ekamra-homepage-qa.png
 assets/pdf-extracted/
 
+# Build/dependency output.
+dist/
+node_modules/
+
 # Original large generated PNGs; optimized WebP assets are committed instead.
 assets/ekamra-concierge-hero.png
 assets/ekamra-recovery-retreat.png
