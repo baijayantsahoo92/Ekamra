@@ -266,6 +266,46 @@ section { padding: 82px 0; }
   gap: 42px;
   align-items: center;
 }
+.about-clarity {
+  padding: 96px 0;
+}
+.about-clarity .split {
+  grid-template-columns: minmax(0, 0.98fr) minmax(380px, 0.86fr);
+  gap: 64px;
+  align-items: center;
+}
+.about-clarity-copy {
+  max-width: 760px;
+}
+.about-clarity-copy .eyebrow {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.about-clarity-copy h2 {
+  max-width: 720px;
+}
+.about-clarity-copy .lead {
+  max-width: 700px;
+  margin-top: 22px;
+  color: #435466;
+}
+.clarity-points {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 34px;
+}
+.clarity-points span {
+  padding: 13px 15px;
+  color: var(--emerald);
+  background: rgba(255,255,255,0.78);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  font-size: 0.9375rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
 .panel {
   background: var(--white);
   border: 1px solid var(--line);
@@ -503,14 +543,26 @@ section { padding: 82px 0; }
 }
 
 .media-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
   overflow: hidden;
   border-radius: var(--radius);
   min-height: 420px;
   background: url("assets/ekamra-recovery-retreat.webp") center / cover no-repeat;
   box-shadow: var(--shadow);
 }
+.media-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(6, 58, 53, 0.02) 42%, rgba(6, 58, 53, 0.72));
+}
 .media-card .caption {
-  margin: 280px 18px 18px;
+  position: relative;
+  z-index: 1;
+  width: calc(100% - 36px);
+  margin: 0 18px 18px;
   padding: 18px;
   color: var(--white);
   background: rgba(6, 58, 53, 0.84);
@@ -733,6 +785,8 @@ textarea { min-height: 122px; resize: vertical; }
   .nav-actions .btn.secondary.menu-toggle { display: inline-flex; }
   .split, .footer-grid { grid-template-columns: 1fr; }
   .grid.two, .grid.three, .grid.four, .metrics, .heritage-strip { grid-template-columns: repeat(2, 1fr); }
+  .about-clarity { padding: 76px 0; }
+  .about-clarity .split { grid-template-columns: 1fr; gap: 40px; }
   .about-heritage { padding: 76px 0; }
   .about-heritage .split { grid-template-columns: 1fr; gap: 40px; }
   .beyond-logistics { padding: 76px 0; }
@@ -767,6 +821,10 @@ textarea { min-height: 122px; resize: vertical; }
   .nav-actions > .btn:not(.menu-toggle) { display: none; }
   .card { padding: 22px; }
   .hero-peek, .metrics, .grid.two, .grid.three, .grid.four, .form-grid, .heritage-strip { grid-template-columns: 1fr; }
+  .about-clarity { padding: 62px 0; }
+  .about-clarity-copy .eyebrow { margin-bottom: 12px; }
+  .about-clarity-copy .lead { margin-top: 18px; }
+  .clarity-points { grid-template-columns: 1fr; margin-top: 28px; }
   .about-heritage { padding: 62px 0; }
   .about-heritage-copy .eyebrow { margin-bottom: 12px; }
   .about-heritage-copy .lead { margin-top: 18px; }
