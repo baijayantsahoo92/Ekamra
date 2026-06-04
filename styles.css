@@ -346,6 +346,32 @@ section { padding: 82px 0; }
   background: url("assets/odisha-recovery-wellness.webp") center / cover no-repeat;
   box-shadow: var(--shadow);
 }
+.beyond-logistics {
+  padding: 96px 0;
+}
+.beyond-logistics .split {
+  grid-template-columns: minmax(0, 1.04fr) minmax(360px, 0.8fr);
+  gap: 64px;
+  align-items: center;
+}
+.beyond-copy {
+  max-width: 760px;
+}
+.beyond-copy .eyebrow {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.beyond-copy h2 {
+  max-width: 720px;
+}
+.beyond-copy .lead {
+  max-width: 700px;
+  margin-top: 22px;
+  color: #435466;
+}
+.beyond-logistics .heritage-strip {
+  margin-top: 36px;
+}
 .odisha-note {
   padding: 24px;
   background: var(--white);
@@ -685,6 +711,8 @@ textarea { min-height: 122px; resize: vertical; }
   .nav-actions .btn.secondary.menu-toggle { display: inline-flex; }
   .split, .footer-grid { grid-template-columns: 1fr; }
   .grid.two, .grid.three, .grid.four, .metrics, .heritage-strip { grid-template-columns: repeat(2, 1fr); }
+  .beyond-logistics { padding: 76px 0; }
+  .beyond-logistics .split { grid-template-columns: 1fr; gap: 40px; }
   .hero::before { background: linear-gradient(180deg, rgba(6, 58, 53, 0.86), rgba(6, 58, 53, 0.76)), url("assets/ekamra-concierge-hero.webp") center / cover no-repeat; }
 }
 
@@ -715,6 +743,10 @@ textarea { min-height: 122px; resize: vertical; }
   .nav-actions > .btn:not(.menu-toggle) { display: none; }
   .card { padding: 22px; }
   .hero-peek, .metrics, .grid.two, .grid.three, .grid.four, .form-grid, .heritage-strip { grid-template-columns: 1fr; }
+  .beyond-logistics { padding: 62px 0; }
+  .beyond-copy .eyebrow { margin-bottom: 12px; }
+  .beyond-copy .lead { margin-top: 18px; }
+  .beyond-logistics .heritage-strip { margin-top: 28px; }
   .heritage-visual, .recovery-visual { min-height: 360px; }
   .heritage-caption { left: 16px; right: 16px; bottom: 16px; }
   .hero-peek span { border-right: 0; border-bottom: 1px solid rgba(255,255,255,0.14); }
