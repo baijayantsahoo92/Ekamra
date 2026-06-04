@@ -279,6 +279,9 @@ section { padding: 82px 0; }
     linear-gradient(180deg, rgba(250, 248, 243, 0.94), rgba(250, 248, 243, 0.98)),
     url("assets/odisha-pattern-texture.webp") center / cover no-repeat;
 }
+.about-heritage {
+  padding: 96px 0;
+}
 .heritage-section::before {
   content: "";
   position: absolute;
@@ -287,6 +290,25 @@ section { padding: 82px 0; }
   background: radial-gradient(circle at 15% 10%, rgba(201, 166, 107, 0.16), transparent 32%);
 }
 .heritage-section > .container { position: relative; z-index: 1; }
+.about-heritage .split {
+  grid-template-columns: minmax(0, 1.02fr) minmax(380px, 0.86fr);
+  gap: 64px;
+}
+.about-heritage-copy {
+  max-width: 760px;
+}
+.about-heritage-copy .eyebrow {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.about-heritage-copy h2 {
+  max-width: 720px;
+}
+.about-heritage-copy .lead {
+  max-width: 700px;
+  margin-top: 22px;
+  color: #435466;
+}
 .heritage-visual {
   min-height: 520px;
   border-radius: var(--radius);
@@ -324,12 +346,12 @@ section { padding: 82px 0; }
 }
 .heritage-list {
   display: grid;
-  gap: 14px;
-  margin-top: 24px;
+  gap: 16px;
+  margin-top: 34px;
 }
 .heritage-list li {
   list-style: none;
-  padding: 15px 16px;
+  padding: 18px 20px;
   color: #3d4a55;
   background: rgba(255,255,255,0.72);
   border: 1px solid var(--line);
@@ -711,6 +733,8 @@ textarea { min-height: 122px; resize: vertical; }
   .nav-actions .btn.secondary.menu-toggle { display: inline-flex; }
   .split, .footer-grid { grid-template-columns: 1fr; }
   .grid.two, .grid.three, .grid.four, .metrics, .heritage-strip { grid-template-columns: repeat(2, 1fr); }
+  .about-heritage { padding: 76px 0; }
+  .about-heritage .split { grid-template-columns: 1fr; gap: 40px; }
   .beyond-logistics { padding: 76px 0; }
   .beyond-logistics .split { grid-template-columns: 1fr; gap: 40px; }
   .hero::before { background: linear-gradient(180deg, rgba(6, 58, 53, 0.86), rgba(6, 58, 53, 0.76)), url("assets/ekamra-concierge-hero.webp") center / cover no-repeat; }
@@ -743,6 +767,10 @@ textarea { min-height: 122px; resize: vertical; }
   .nav-actions > .btn:not(.menu-toggle) { display: none; }
   .card { padding: 22px; }
   .hero-peek, .metrics, .grid.two, .grid.three, .grid.four, .form-grid, .heritage-strip { grid-template-columns: 1fr; }
+  .about-heritage { padding: 62px 0; }
+  .about-heritage-copy .eyebrow { margin-bottom: 12px; }
+  .about-heritage-copy .lead { margin-top: 18px; }
+  .about-heritage .heritage-list { margin-top: 28px; }
   .beyond-logistics { padding: 62px 0; }
   .beyond-copy .eyebrow { margin-bottom: 12px; }
   .beyond-copy .lead { margin-top: 18px; }
