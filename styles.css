@@ -475,6 +475,22 @@ section { padding: 82px 0; }
   gap: 16px;
   margin-top: 34px;
 }
+.home-why-india .split {
+  gap: 58px;
+  align-items: start;
+}
+.home-why-india-copy .eyebrow {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.home-why-india-copy h2 {
+  max-width: 760px;
+}
+.home-why-india-copy .lead {
+  max-width: 720px;
+  margin-top: 26px;
+  color: #435466;
+}
 .odisha-note {
   padding: 24px;
   background: var(--white);
@@ -733,6 +749,16 @@ textarea { min-height: 122px; resize: vertical; }
 }
 .cta-band h2, .cta-band .lead { color: var(--white); }
 .cta-band .container { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.final-cta .container {
+  gap: 42px;
+}
+.final-cta-copy .eyebrow {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.final-cta-copy h2 {
+  max-width: 720px;
+}
 
 .page-hero {
   padding: 92px 0 54px;
@@ -835,6 +861,7 @@ textarea { min-height: 122px; resize: vertical; }
   .home-concierge .split { gap: 40px; }
   .concierge-details { grid-template-columns: 1fr; gap: 18px; }
   .home-recovery .split { gap: 40px; }
+  .home-why-india .split { grid-template-columns: 1fr; gap: 40px; }
   .hero::before { background: linear-gradient(180deg, rgba(6, 58, 53, 0.86), rgba(6, 58, 53, 0.76)), url("assets/ekamra-concierge-hero.webp") center / cover no-repeat; }
 }
 
@@ -882,6 +909,9 @@ textarea { min-height: 122px; resize: vertical; }
   .home-recovery-copy .eyebrow { margin-bottom: 12px; }
   .home-recovery-copy .lead { margin-top: 22px; }
   .recovery-details { margin-top: 28px; }
+  .home-why-india-copy .eyebrow { margin-bottom: 12px; }
+  .home-why-india-copy .lead { margin-top: 22px; }
+  .final-cta-copy .eyebrow { margin-bottom: 12px; }
   .heritage-visual, .recovery-visual { min-height: 360px; }
   .heritage-caption { left: 16px; right: 16px; bottom: 16px; }
   .hero-peek span { border-right: 0; border-bottom: 1px solid rgba(255,255,255,0.14); }
