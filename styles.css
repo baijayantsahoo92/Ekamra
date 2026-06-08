@@ -491,6 +491,25 @@ section { padding: 82px 0; }
   margin-top: 26px;
   color: #435466;
 }
+#treatment-plan .split {
+  gap: 58px;
+  align-items: start;
+}
+.treatment-plan-copy {
+  max-width: 760px;
+}
+.treatment-plan-copy .eyebrow {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.treatment-plan-copy h2 {
+  max-width: 720px;
+}
+.treatment-plan-copy .lead {
+  max-width: 700px;
+  margin-top: 26px;
+  color: #435466;
+}
 .odisha-note {
   padding: 24px;
   background: var(--white);
@@ -862,6 +881,7 @@ textarea { min-height: 122px; resize: vertical; }
   .concierge-details { grid-template-columns: 1fr; gap: 18px; }
   .home-recovery .split { gap: 40px; }
   .home-why-india .split { grid-template-columns: 1fr; gap: 40px; }
+  #treatment-plan .split { grid-template-columns: 1fr; gap: 40px; }
   .hero::before { background: linear-gradient(180deg, rgba(6, 58, 53, 0.86), rgba(6, 58, 53, 0.76)), url("assets/ekamra-concierge-hero.webp") center / cover no-repeat; }
 }
 
@@ -911,6 +931,8 @@ textarea { min-height: 122px; resize: vertical; }
   .recovery-details { margin-top: 28px; }
   .home-why-india-copy .eyebrow { margin-bottom: 12px; }
   .home-why-india-copy .lead { margin-top: 22px; }
+  .treatment-plan-copy .eyebrow { margin-bottom: 12px; }
+  .treatment-plan-copy .lead { margin-top: 22px; }
   .final-cta-copy .eyebrow { margin-bottom: 12px; }
   .heritage-visual, .recovery-visual { min-height: 360px; }
   .heritage-caption { left: 16px; right: 16px; bottom: 16px; }
