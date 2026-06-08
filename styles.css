@@ -456,6 +456,25 @@ section { padding: 82px 0; }
 .concierge-details .badges {
   margin-top: 2px;
 }
+.home-recovery .split {
+  gap: 58px;
+}
+.home-recovery-copy .eyebrow {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.home-recovery-copy h2 {
+  max-width: 760px;
+}
+.home-recovery-copy .lead {
+  max-width: 720px;
+  margin-top: 26px;
+  color: #435466;
+}
+.recovery-details {
+  gap: 16px;
+  margin-top: 34px;
+}
 .odisha-note {
   padding: 24px;
   background: var(--white);
@@ -815,6 +834,7 @@ textarea { min-height: 122px; resize: vertical; }
   .beyond-logistics .split { grid-template-columns: 1fr; gap: 40px; }
   .home-concierge .split { gap: 40px; }
   .concierge-details { grid-template-columns: 1fr; gap: 18px; }
+  .home-recovery .split { gap: 40px; }
   .hero::before { background: linear-gradient(180deg, rgba(6, 58, 53, 0.86), rgba(6, 58, 53, 0.76)), url("assets/ekamra-concierge-hero.webp") center / cover no-repeat; }
 }
 
@@ -859,6 +879,9 @@ textarea { min-height: 122px; resize: vertical; }
   .beyond-logistics .heritage-strip { margin-top: 28px; }
   .home-concierge-copy .eyebrow { margin-bottom: 12px; }
   .concierge-details { margin-top: 22px; }
+  .home-recovery-copy .eyebrow { margin-bottom: 12px; }
+  .home-recovery-copy .lead { margin-top: 22px; }
+  .recovery-details { margin-top: 28px; }
   .heritage-visual, .recovery-visual { min-height: 360px; }
   .heritage-caption { left: 16px; right: 16px; bottom: 16px; }
   .hero-peek span { border-right: 0; border-bottom: 1px solid rgba(255,255,255,0.14); }
